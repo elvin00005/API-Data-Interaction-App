@@ -1,0 +1,40 @@
+.container {
+  position: relative;
+  text-align: center;
+  margin: 4px;
+  padding: 16px;
+  a {
+    color: black;
+  }
+  button {
+    background-color: transparent;
+    color: black;
+    border: transparent;
+  }
+  .check {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 12px;
+    margin: 12px;
+  }
+  .bntsDiv {
+    gap: 20px;
+  }
+  .commentButtonActive {
+    background-color: rgb(3, 194, 3);
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 8px;
+    .check {
+      padding: 4px;
+      margin: 4px;
+    }
+    .bntsDiv {
+      gap: 12px;
+    }
+  }
+}
